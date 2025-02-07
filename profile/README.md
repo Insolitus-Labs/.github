@@ -14,9 +14,9 @@ We are committed to pioneering decentralized AI solutions that align with the pr
 
 ## Our Current Projects
 
-### Apefify - Peak Returns, Zero Lag
+### [Apexify - Peak Returns, Zero Lag](https://github.com/Insolitus-Labs/apexify)
 
-Apefify is an intelligent DeFi yield optimizer that leverages AI-driven automation to maximize returns while managing risk efficiently on the Solana blockchain.
+Apexify is an intelligent DeFi yield optimizer that leverages AI-driven automation to maximize returns while managing risk efficiently on the Solana blockchain.
 
 #### Features:
 
@@ -25,7 +25,7 @@ Apefify is an intelligent DeFi yield optimizer that leverages AI-driven automati
 - **Risk-aware compounding** – Ensures sustainable growth by adjusting risk exposure dynamically.
 - **Permissionless & non-custodial** – Users maintain full control of their funds while benefiting from automation.
 
-Explore Apefify in its [repository](#).
+Explore Apexify in its [repository](https://github.com/Insolitus-Labs/apexify).
 
 ---
 
