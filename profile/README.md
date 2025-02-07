@@ -12,16 +12,6 @@ We are committed to pioneering decentralized AI solutions that align with the pr
 
 ---
 
-## Why AI in DeFi & Crypto?
-
-Decentralization is more than just a principle—it’s a necessity in the evolving digital economy. By combining AI with DeFi and crypto, we enable:
-
-- **Trustless automation** – AI-powered smart contracts that execute seamlessly.
-- **Enhanced security** – Risk analysis and fraud detection using AI-driven insights.
-- **Scalability & efficiency** – AI models that adapt to market trends and optimize decision-making.
-
----
-
 ## Our Current Projects
 
 ### Apefify - Peak Returns, Zero Lag
@@ -36,6 +26,16 @@ Apefify is an intelligent DeFi yield optimizer that leverages AI-driven automati
 - **Permissionless & non-custodial** – Users maintain full control of their funds while benefiting from automation.
 
 Explore Apefify in its [repository](#).
+
+---
+
+## Why AI in DeFi & Crypto?
+
+Decentralization is more than just a principle—it’s a necessity in the evolving digital economy. By combining AI with DeFi and crypto, we enable:
+
+- **Trustless automation** – AI-powered smart contracts that execute seamlessly.
+- **Enhanced security** – Risk analysis and fraud detection using AI-driven insights.
+- **Scalability & efficiency** – AI models that adapt to market trends and optimize decision-making.
 
 ---
 
