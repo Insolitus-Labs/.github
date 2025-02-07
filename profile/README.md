@@ -1,19 +1,18 @@
 # Insolitus Labs
----
 
-![Insolitus Labs Logo](https://raw.githubusercontent.com/Insolitus-Labs/.github/refs/heads/main/openart-image_MlfgyHE8_1738909832432_raw.jpg)
+!![Insolitus Labs Logo](https://raw.githubusercontent.com/Insolitus-Labs/.github/refs/heads/main/Add%20a%20heading%20(2).png)
 
 At Insolitus Labs, we believe in the power of open-source collaboration and decentralized innovation. Our mission is to push the boundaries of AI and crypto by developing cutting-edge tools and frameworks that empower both developers and communities to build without limits.
 
-## Our Mission
-
 ---
+
+## Our Mission
 
 We are committed to pioneering decentralized AI solutions that align with the principles of transparency, autonomy, and community-driven development. By integrating AI with blockchain technology, we create solutions that optimize efficiency, enhance security, and promote open access to financial and computational resources.
 
-## Why AI in DeFi & Crypto?
-
 ---
+
+## Why AI in DeFi & Crypto?
 
 Decentralization is more than just a principle—it’s a necessity in the evolving digital economy. By combining AI with DeFi and crypto, we enable:
 
