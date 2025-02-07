@@ -1,7 +1,7 @@
 # Insolitus Labs
 ---
 
-https\://raw.githubusercontent.com/Insolitus-Labs/.github/refs/heads/main/openart-image_MlfgyHE8_1738909832432_raw.jpg
+![Insolitus Labs Logo](https://raw.githubusercontent.com/Insolitus-Labs/.github/refs/heads/main/openart-image_MlfgyHE8_1738909832432_raw.jpg)
 
 At Insolitus Labs, we believe in the power of open-source collaboration and decentralized innovation. Our mission is to push the boundaries of AI and crypto by developing cutting-edge tools and frameworks that empower both developers and communities to build without limits.
 
