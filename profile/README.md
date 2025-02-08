@@ -27,6 +27,21 @@ Apexify is an intelligent DeFi yield optimizer that leverages AI-driven automati
 
 Explore Apexify in its [repository](https://github.com/Insolitus-Labs/apexify).
 
+### [YieldMind - Smart AI-Driven Yield Optimization for DeFi](https://github.com/Insolitus-Labs/YieldMind)
+
+Apexify is an intelligent DeFi yield optimizer that leverages AI-driven automation to maximize returns while managing risk efficiently on the Solana blockchain.
+
+#### Features:
+
+- **AI-Powered Yield Optimization – Continuous portfolio rebalancing for maximum APY.
+- **Multi-Protocol Arbitrage** – Identifies inefficiencies across DeFi protocols for profit maximization.
+- **Automated Risk Management** – Dynamically adjusts exposure based on market conditions.
+- **Auto-Compounding Mechanism** – Maximizes yield growth through reinvestment.
+- **Non-Custodial & Secure** – Users retain full control over their funds.
+- **Seamless Integration** – Supports leading DeFi protocols across multiple ecosystems.
+
+Explore Apexify in its [repository](https://github.com/Insolitus-Labs/YieldMind).
+
 ---
 
 ## Why AI in DeFi & Crypto?
