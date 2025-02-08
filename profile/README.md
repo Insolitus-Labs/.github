@@ -33,7 +33,7 @@ YieldMind is an AI-powered yield optimization engine designed to maximize return
 
 #### Features:
 
-- **AI-Powered Yield Optimization – Continuous portfolio rebalancing for maximum APY.
+- **AI-Powered Yield Optimization** – Continuous portfolio rebalancing for maximum APY.
 - **Multi-Protocol Arbitrage** – Identifies inefficiencies across DeFi protocols for profit maximization.
 - **Automated Risk Management** – Dynamically adjusts exposure based on market conditions.
 - **Auto-Compounding Mechanism** – Maximizes yield growth through reinvestment.
