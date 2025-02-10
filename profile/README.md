@@ -20,7 +20,7 @@ Apexify is an AI-powered yield optimization engine designed for Solana. It auton
 
 ---
 
-### **YieldMind - Smart AI-Driven Yield Optimization**
+### [**YieldMind - Smart AI-Driven Yield Optimization**](https://github.com/insolitus-labs/yieldmind)
 YieldMind leverages AI analytics to optimize yield farming strategies across multiple DeFi ecosystems. Its self-learning algorithms enhance efficiency, security, and growth potential for users.
 
 #### Features:
