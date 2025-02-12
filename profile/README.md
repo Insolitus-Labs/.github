@@ -1,6 +1,6 @@
 # Insolitus Labs - Pioneering AI & DeFi Innovation
 
-![Insolitus Labs Banner](https://raw.githubusercontent.com/Insolitus-Labs/.github/refs/heads/profile/main/Banner.png)
+![Insolitus Labs Banner](https://raw.githubusercontent.com/Insolitus-Labs/.github/refs/heads/main/Banner.png)
 
 ## About Insolitus Labs
 
