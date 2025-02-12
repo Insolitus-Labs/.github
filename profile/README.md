@@ -20,7 +20,7 @@ We believe in a future where **AI seamlessly integrates with DeFi**, enabling au
 
 ## 🚀 Our Projects
 
-### **Apexify - Peak Returns, Zero Lag**
+### [**Apexify - Peak Returns, Zero Lag**](https://github.com/insolitus-labs/apexify)
 Apexify is an advanced **AI-powered yield optimization engine** built for Solana. It autonomously **allocates liquidity**, **executes arbitrage**, and **manages risk dynamically** to maximize DeFi earnings.
 
 #### **Key Features:**
@@ -34,7 +34,7 @@ Apexify is an advanced **AI-powered yield optimization engine** built for Solana
 
 ---
 
-### **YieldMind - AI-Optimized Yield Farming**
+### [**YieldMind - AI-Optimized Yield Farming**](https://github.com/insolitus-labs/yieldmind)
 YieldMind is an **adaptive AI-powered yield farming optimizer** that enables liquidity providers to maximize their **returns across multiple DeFi ecosystems**. It dynamically reallocates funds based on **real-time market insights** to maintain sustainable APYs.
 
 #### **Key Features:**
@@ -47,7 +47,7 @@ YieldMind is an **adaptive AI-powered yield farming optimizer** that enables liq
 
 ---
 
-### **SynapseFi - Cross-Chain DeFi Portfolio Management**
+### [**SynapseFi - Cross-Chain DeFi Portfolio Management**](https://github.com/insolitus-labs/synapsefi)
 SynapseFi is a **cross-chain portfolio management system** that utilizes **AI-driven automation** to optimize staking, lending, and liquidity strategies across different blockchains. It enables **seamless multi-chain yield aggregation** and automated decision-making for DeFi investors.
 
 #### **Key Features:**
