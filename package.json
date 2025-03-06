@@ -6,12 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write ." // Added Prettier for code formatting
   },
   "dependencies": {
     "next": "latest",
     "react": "^18",
     "react-dom": "^18",
-    "axios": "^1.3.0" // Added Axios for HTTP requests
+    "axios": "^1.3.0",
+    "zustand": "^4.4.0" // Added Zustand for state management
   }
 }
