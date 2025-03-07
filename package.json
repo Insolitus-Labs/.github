@@ -7,13 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ." // Added Prettier for code formatting
+    "format": "prettier --write .",
+    "test": "jest" // Added Jest for testing framework
   },
   "dependencies": {
     "next": "latest",
     "react": "^18",
     "react-dom": "^18",
     "axios": "^1.3.0",
-    "zustand": "^4.4.0" // Added Zustand for state management
+    "zustand": "^4.4.0",
+    "react-query": "^3.39.0" // Added React Query for data fetching
+  },
+  "devDependencies": {
+    "jest": "^27.0.0" // Added Jest testing framework as dev dependency
   }
 }
