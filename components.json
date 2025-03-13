@@ -28,5 +28,11 @@
       "hover": "hover:bg-secondary",
       "focus": "focus:ring-4 focus:ring-secondary"
     }
+  },
+  "spacing": {
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "2rem",
+    "xl": "4rem"
   }
 }
