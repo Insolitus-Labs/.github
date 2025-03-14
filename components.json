@@ -34,5 +34,13 @@
     "md": "1rem",
     "lg": "2rem",
     "xl": "4rem"
+  },
+  "animations": {
+    "bounce": "bounce 1s ease-in-out infinite",
+    "fadeIn": "fadeIn 2s ease-in-out"
+  },
+  "boxShadow": {
+    "default": "0 4px 6px rgba(0, 0, 0, 0.1)",
+    "lg": "0 15px 30px rgba(0, 0, 0, 0.15)"
   }
 }
