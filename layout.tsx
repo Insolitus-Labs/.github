@@ -53,6 +53,10 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:title" content="Apexify - AI-Powered Fraud Detection" />
+        <meta property="og:description" content="Protect your assets with AI-driven fraud detection on Solana." />
+        <meta property="og:url" content="https://apexify.com" />
+        <meta property="og:image" content="https://apexify-public-assets.vercel.app/og-image.jpeg" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
