@@ -97,3 +97,16 @@ export function toggleClassValue(classString: string, className: string): string
 export function mergeClassSet(...classStrings: string[]): string {
   return [...new Set(classStrings.flatMap(cls => cls.split(/\s+/)).filter(Boolean))].join(" ");
 }
+
+// Added a helper function to toggle class visibility based on a condition
+
+/**
+ * Toggles class visibility based on a boolean condition.
+ */
+export function toggleClassVisibility(
+  classString: string,
+  condition: boolean,
+  className: string
+): string {
+  return condition ? `${classString} ${className}` : classString;
+}
