@@ -110,3 +110,12 @@ export function toggleClassVisibility(
 ): string {
   return condition ? `${classString} ${className}` : classString;
 }
+// Added a function to remove multiple classes from a class string
+
+/**
+ * Removes multiple classes from a class string.
+ */
+export function removeClasses(classString: string, classesToRemove: string[]): string {
+  const classList = classListToArray(classString);
+  return classList.filter(cls => !classesToRemove.includes(cls)).join(" ");
+}
