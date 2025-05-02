@@ -83,9 +83,8 @@ We are actively building the future of **AI-powered DeFi**, and we welcome **dev
 
 ## 🌍 Connect With Us
 
-- **Website:** [Insolitus Labs](https://insolituslabs.io)
-- **Twitter:** [@InsolitusLabs](https://twitter.com/InsolitusLabs)
-- **Discord:** [Join our community](https://discord.gg/insolituslabs)
+- **Website:** [Insolitus Labs](https://insolituslabs.com)
+- **Twitter:** [@Insolitus_Labs](https://twitter.com/insolitus_labs)
 - **GitHub:** [Contribute on GitHub](https://github.com/Insolitus-Labs)
 
 ---
