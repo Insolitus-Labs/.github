@@ -55,6 +55,8 @@ export default function RootLayout({
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="robots" content="index, follow" />
         <meta property="og:image" content="https://apexify-public-assets.vercel.app/og-image.jpeg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Apexify" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
