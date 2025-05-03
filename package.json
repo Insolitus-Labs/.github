@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "test": "jest",
     "deploy": "gh-pages -d out",
-    "clean": "rimraf out" // Added clean script for better cross-platform compatibility
+    "clean": "rimraf out",
+    "version": "npm version patch" // Added version script for versioning
   },
   "dependencies": {
     "next": "latest",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "jest": "^27.0.0",
     "gh-pages": "^3.2.3",
-    "rimraf": "latest" // Added rimraf for cross-platform clean-up
+    "rimraf": "latest",
+    "prettier": "^2.3.2" // Added Prettier as a devDependency for code formatting
   }
 }
