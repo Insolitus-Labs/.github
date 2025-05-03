@@ -1,18 +1,20 @@
-import dynamic from "next/dynamic"
-import Hero from "./components/Hero"
-import HowItWorks from "./components/HowItWorks"
-import Features from "./components/Features"
-import UseCases from "./components/UseCases"
-import WhyVIGLO from "./components/WhyVIGLO"
-import Footer from "./components/Footer"
+import dynamic from "next/dynamic";
+import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
+import Features from "./components/Features";
+import UseCases from "./components/UseCases";
+import WhyVIGLO from "./components/WhyVIGLO";
+import Footer from "./components/Footer";
 
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
-  loading: () => <p>Loading...</p>,
-})
+  loading: () => <p className="text-center text-gray-400">Loading Live Dashboard...</p>, // Updated loading message for clarity
+  ssr: false, // Added SSR optimization
+});
 
 const DynamicJoinRevolution = dynamic(() => import("./components/JoinRevolution"), {
-  loading: () => <p>Loading...</p>,
-})
+  loading: () => <p className="text-center text-gray-400">Loading Join Revolution...</p>, // Updated loading message for clarity
+  ssr: false, // Added SSR optimization
+});
 
 export default function Home() {
   return (
@@ -38,6 +40,5 @@ export default function Home() {
       </section>
       <Footer />
     </main>
-  )
+  );
 }
-
