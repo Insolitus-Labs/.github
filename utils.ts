@@ -119,3 +119,13 @@ export function removeClasses(classString: string, classesToRemove: string[]): s
   const classList = classListToArray(classString);
   return classList.filter(cls => !classesToRemove.includes(cls)).join(" ");
 }
+
+// Added function to merge class strings while handling duplicates
+
+/**
+ * Merges multiple class strings while removing duplicates.
+ */
+export function mergeClassStrings(...classStrings: string[]): string {
+  const uniqueClasses = new Set(classStrings.flatMap(cls => cls.split(/\s+/)).filter(Boolean));
+  return Array.from(uniqueClasses).join(" ");
+}
