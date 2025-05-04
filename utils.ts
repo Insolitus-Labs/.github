@@ -129,3 +129,13 @@ export function mergeClassStrings(...classStrings: string[]): string {
   const uniqueClasses = new Set(classStrings.flatMap(cls => cls.split(/\s+/)).filter(Boolean));
   return Array.from(uniqueClasses).join(" ");
 }
+
+// Introduced a function to check if any class from a list exists in a class string
+
+/**
+ * Checks if any class from a given list exists in a class string.
+ */
+export function hasAnyClass(classString: string, classNames: string[]): boolean {
+  const classList = classListToArray(classString);
+  return classNames.some(cls => classList.includes(cls));
+}
