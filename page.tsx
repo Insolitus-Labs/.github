@@ -6,6 +6,7 @@ import UseCases from "./components/UseCases";
 import WhyVIGLO from "./components/WhyVIGLO";
 import Footer from "./components/Footer";
 import Head from "next/head";
+import { useEffect } from "react";
 
 // Dynamic imports for the LiveDashboard and JoinRevolution components
 const DynamicLiveDashboard = dynamic(() => import("./components/LiveDashboard"), {
@@ -19,6 +20,17 @@ const DynamicJoinRevolution = dynamic(() => import("./components/JoinRevolution"
 });
 
 export default function Home() {
+  useEffect(() => {
+    const handleScroll = (e: Event) => {
+      const scrollTop = window.scrollY;
+      console.log(`Current scroll position: ${scrollTop}`);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <Head>
