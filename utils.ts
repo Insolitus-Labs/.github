@@ -139,3 +139,12 @@ export function hasAnyClass(classString: string, classNames: string[]): boolean 
   const classList = classListToArray(classString);
   return classNames.some(cls => classList.includes(cls));
 }
+
+// Optimized class string handling by adding a function for adding a default class
+
+/**
+ * Adds a default class if no class is provided.
+ */
+export function addDefaultClass(classString: string, defaultClass: string): string {
+  return classString.trim() === "" ? defaultClass : classString;
+}
