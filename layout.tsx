@@ -57,7 +57,18 @@ export default function RootLayout({
         <meta property="og:image" content="https://apexify-public-assets.vercel.app/og-image.jpeg" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Apexify" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-XXXXXXX-X');
+          `}
+        </script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
