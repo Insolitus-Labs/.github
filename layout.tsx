@@ -57,7 +57,7 @@ export default function RootLayout({
         <meta property="og:image" content="https://apexify-public-assets.vercel.app/og-image.jpeg" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Apexify" />
-        <link rel="canonical" href="https://apexify.com" />
+        <meta name="twitter:card" content="summary_large_image" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
