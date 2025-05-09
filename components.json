@@ -17,58 +17,5 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide",
-  "animations": {
-    "bounce": "bounce 1s ease-in-out infinite",  // Added bounce animation
-    "fadeIn": "fadeIn 2s ease-in-out",          // Added fadeIn animation
-    "slideUp": "slideUp 1s ease-in-out"         // Added slideUp animation
-  },
-  "typography": {
-    "default": {
-      "h1": "text-4xl font-bold",
-      "h2": "text-3xl font-semibold",
-      "h3": "text-2xl font-medium"
-    },
-    "responsive": {
-      "h1": "text-3xl sm:text-4xl md:text-5xl",
-      "h2": "text-2xl sm:text-3xl md:text-4xl",
-      "h3": "text-xl sm:text-2xl md:text-3xl"
-    }
-  },
-  "colors": {
-    "primary": "#1D4ED8",    // Primary color
-    "secondary": "#9333EA",  // Secondary color
-    "accent": "#F59E0B",     // Accent color
-    "danger": "#DC2626",     // Danger color (for alerts)
-    "success": "#10B981"     // Success color (for success messages)
-  },
-  "borderRadius": {
-    "DEFAULT": "8px",
-    "sm": "4px",
-    "lg": "16px",
-    "xl": "24px"
-  },
-  "spacing": {
-    "4": "1rem",
-    "8": "2rem",
-    "16": "4rem",
-    "32": "8rem"
-  },
-  "container": {
-    "center": true,
-    "padding": "1rem",
-    "maxWidth": "1200px"
-  },
-  "components": {
-    "button": {
-      "default": "bg-primary text-white py-2 px-4 rounded",
-      "hover": "hover:bg-secondary",
-      "focus": "focus:ring-4 focus:ring-secondary",
-      "focus-visible": "focus-visible:ring-2 focus-visible:ring-primary"
-    }
-  },
-  "boxShadow": {
-    "default": "0 4px 6px rgba(0, 0, 0, 0.1)",
-    "lg": "0 15px 30px rgba(0, 0, 0, 0.15)"
-  }
+  "iconLibrary": "lucide"
 }
