@@ -17,5 +17,10 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": "lucide",
+  "animations": {
+    "bounce": "bounce 1s ease-in-out infinite",
+    "fadeIn": "fadeIn 2s ease-in-out",
+    "slideUp": "slideUp 1s ease-in-out"
+  }
 }
