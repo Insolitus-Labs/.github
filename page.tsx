@@ -32,6 +32,18 @@ export default function Home() {
     };
   }, []);
 
+  // Smooth scrolling for anchor links
+  const smoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute("href")?.slice(1);
+    if (targetId) {
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <>
       <Head>
@@ -61,6 +73,16 @@ export default function Home() {
         </section>
         <Footer />
       </main>
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="#how-it-works" onClick={smoothScroll}>How It Works</a></li>
+            <li><a href="#features" onClick={smoothScroll}>Features</a></li>
+            <li><a href="#use-cases" onClick={smoothScroll}>Use Cases</a></li>
+            <li><a href="#why-viglo" onClick={smoothScroll}>Why VIGLO</a></li>
+          </ul>
+        </nav>
+      </footer>
     </>
   );
 }
