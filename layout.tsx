@@ -58,6 +58,9 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Apexify" />
         <meta name="twitter:card" content="summary_large_image" />
+        <script>
+          {`window.addEventListener('load', () => { console.log('Page Loaded Successfully!') })`}
+        </script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
