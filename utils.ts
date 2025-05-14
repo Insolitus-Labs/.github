@@ -148,3 +148,12 @@ export function hasAnyClass(classString: string, classNames: string[]): boolean 
 export function addDefaultClass(classString: string, defaultClass: string): string {
   return classString.trim() === "" ? defaultClass : classString;
 }
+
+// Added a function to remove all classes from a class string
+
+/**
+ * Removes all classes from a class string, returning an empty string.
+ */
+export function clearClasses(classString: string): string {
+  return "";
+}
